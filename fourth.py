@@ -33,3 +33,16 @@ def increment(number, by):
 
 
 print(increment(2, by=1))
+
+
+
+
+
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total = total * number
+    return total
+
+
+print(multiply(2, 5, 3, 7))
