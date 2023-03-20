@@ -46,3 +46,13 @@ def multiply(*numbers):
 
 
 print(multiply(2, 5, 3, 7))
+
+
+
+
+
+def save_user(**user):
+    print(user)
+
+
+save_user(id=1, name="avni", age=22)
