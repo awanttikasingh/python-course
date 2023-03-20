@@ -13,3 +13,12 @@ def greet(first_name, last_name):
 
 
 greet("awanttika", "singh")
+
+
+
+def get_greetings(name):
+    return f"hi {name}"
+
+
+message = get_greetings("avni")
+print(message)
