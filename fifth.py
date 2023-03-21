@@ -116,3 +116,10 @@ queue.popleft()
 print(queue)
 if not queue:
     print("empty")
+
+    
+    
+    
+# tupple
+point = (1, 2, 3)
+print(point[0:2])
