@@ -46,3 +46,8 @@ letters.remove("b")
 del letters[0:3]
 # letters.clear()
 print(letters)
+
+
+print(letters.count("d"))
+if "d" in letters:
+    print(letters.index("d"))
