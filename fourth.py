@@ -91,7 +91,12 @@ print(square(2, 5, 3, 7))
 
 def leap_year(*numbers):
     for number in numbers:
-        print("leap" if number % 4 == 0 else "not_leap", end=" ")
+        print(
+            "leap"
+            if (number % 4 == 0 and number % 100 != 0) or (number % 400 == 0)
+            else "not_leap",
+            end=" ",
+        )
 
 
 leap_year(2000, 2004, 2005)
