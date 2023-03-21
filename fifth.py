@@ -160,3 +160,18 @@ print(first ^ second)
 
 if 1 in first:
     print("yes")
+
+    
+    
+    
+# dictionary
+point = dict(x=1, y=2)
+point["x"] = 10
+point["z"] = 20
+
+print(point.get("a", 0))
+del point["x"]
+print(point)
+
+for key, value in point.items():
+    print(key, value)
