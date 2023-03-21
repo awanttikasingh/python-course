@@ -135,3 +135,13 @@ x, y = y, x
 
 print("x", x)
 print("y", y)
+
+
+
+
+# array
+from array import array
+
+numbers = array("i", [1, 2, 3])
+numbers.append(6)
+print(numbers)
