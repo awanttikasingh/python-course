@@ -73,3 +73,14 @@ def fizz_buzz(input):
 
 
 print(fizz_buzz(15))
+
+
+
+
+# task
+def square(*numbers):
+    for number in numbers:
+        print(number * number, end=" ")
+
+
+print(square(2, 5, 3, 7))
