@@ -70,6 +70,7 @@ items.sort(key=lambda item: item[1])
 print(items)
 
 
+#list comprehensions/filter/map
 # prices = list(map(lambda item: item[1], items))
 prices = [item[1] for item in items]
 print(prices)
@@ -82,7 +83,7 @@ print(filtered)
 
 
 
-
+#zip function
 list1 = [1, 2, 3]
 list2 = [10, 20, 30]
 
@@ -90,7 +91,7 @@ print(list(zip("abd", list1, list2)))
 
 
 
-
+#stacks
 browsing_session = []
 browsing_session.append(1)
 browsing_session.append(2)
@@ -105,7 +106,7 @@ print("redirect", browsing_session[-1])
 
 
 
-
+#queues
 from collections import deque
 
 queue = deque([])
@@ -123,3 +124,14 @@ if not queue:
 # tupple
 point = (1, 2, 3)
 print(point[0:2])
+
+
+
+# swapping
+x = 10
+y = 11
+
+x, y = y, x
+
+print("x", x)
+print("y", y)
