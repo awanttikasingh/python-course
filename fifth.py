@@ -78,3 +78,12 @@ print(prices)
 # filtered = list(filter(lambda item: item[1] >= 10, items))
 filtered = [item for item in items if item[1] >= 10]
 print(filtered)
+
+
+
+
+
+list1 = [1, 2, 3]
+list2 = [10, 20, 30]
+
+print(list(zip("abd", list1, list2)))
