@@ -2,8 +2,12 @@ numbers = list(range(20))
 print(numbers)
 
 
+
+
 chars = list("hello world")
 print(chars)
+
+
 
 
 numbers = list(range(20))
@@ -16,3 +20,11 @@ numbers = [2, 5, 6, 18, 5, 2, 6, 5, 2, 3]
 first, *others, last = numbers
 print(first, last)
 print(others)
+
+
+
+
+letters = ["a", "b", "c", "d"]
+
+for index, letter in enumerate(letters):
+    print(index, letter)
