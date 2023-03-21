@@ -68,3 +68,7 @@ items = [
 
 items.sort(key=lambda item: item[1])
 print(items)
+
+
+prices = list(map(lambda item: item[1], items))
+print(prices)
