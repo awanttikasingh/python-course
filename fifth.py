@@ -175,3 +175,8 @@ print(point)
 
 for key, value in point.items():
     print(key, value)
+
+    
+# dictionary comprehension
+values = {x: x * 2 for x in range(5)}
+print(values)
