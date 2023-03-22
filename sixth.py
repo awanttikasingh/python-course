@@ -20,3 +20,20 @@ except (ValueError, ZeroDivisionError):
 
 else:
     print("no exceptions thrown")
+
+    
+    
+    
+    
+    
+    try:
+    file = open("sixth.py")
+    age = int(input("age:"))
+    xfactor = 10 / age
+except (ValueError, ZeroDivisionError):
+    print("you didn't enter a valid age.")
+
+else:
+    print("no exceptions thrown")
+finally:
+    file.close()
